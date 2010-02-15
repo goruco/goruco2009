@@ -1,0 +1,685 @@
+/* Reset
+------------------------------------------------------------------*/
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
+abbr, acronym, address, code, del, dfn, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+:focus { outline: 0; }
+
+/* Global
+------------------------------------------------------------------*/
+
+body {
+  line-height: 1.3;
+  background: #ddd;
+  color: #111;
+  font-size: 14px;
+  font-family: "HelveticaNeue-Light", "Century Gothic", helvetica, arial, verdana, sans-serif;
+  width: 100%;
+}
+
+/* Utilities
+------------------------------------------------------------------*/
+
+.left    { float: left; }
+.right   { float: right; }
+
+.tleft   { text-align: left; }
+.tright  { text-align: right; }
+.tcenter { text-align: center; }
+
+.mtop    { margin-top: 10px; }
+.mright  { margin-right: 10px; }
+.mbottom { margin-bottom: 10px; }
+.mleft   { margin-left: 10px; }
+
+.section {
+  padding: 10px 50px;
+  border-bottom: 1px dotted #999;
+}
+
+/* Icons
+------------------------------------------------------------------*/
+
+.i-icon, .i-book {
+  padding-left: 20px;
+  line-height: 16px;
+  background: no-repeat 0 50%;
+}
+
+.i-icon     { background-image: url(../images/fam/add.png); }
+.i-book     { background-image: url(../images/fam/book.png); }
+
+/* Error
+------------------------------------------------------------------*/
+
+div.error {
+  border: 2px solid #c33;
+  background: #fee;
+  padding: 10px;
+}
+
+/* Pagination
+------------------------------------------------------------------*/
+
+.paginate {
+  overflow: hidden;
+}
+
+.paginate a,
+.paginate span {
+  float: left;
+  padding: 0 5px;
+  line-height: 20px;
+  margin-right: 10px;
+}
+
+.paginate a {
+  border: 1px solid #999;
+  padding: 0 10px;
+}
+
+.paginate a:link,
+.paginate a:visited,
+.paginate a:hover,
+.paginate a:active {
+  text-decoration: none;
+  color: #111;
+}
+
+.paginate a:hover,
+.paginate a:active {
+  background: #ddd;
+}
+
+.paginate a.sib {
+  border: none;
+  padding: 0;
+}
+
+.paginate a:link.sib,
+.paginate a:visited.sib {
+  color: #00f;
+  text-decoration: underline;
+}
+
+.paginate a:hover.sib,
+.paginate a:active.sib {
+  text-decoration: none;
+  background: none;
+}
+
+/* Breadcrumbs
+------------------------------------------------------------------*/
+
+.breadcrumbs a,
+.breadcrumbs span {
+  padding: 0 5px;
+}
+
+/* Boxes
+------------------------------------------------------------------*/
+
+.box {
+  border: 1px solid #999;
+  padding: 10px;
+}
+
+/*
+------------------------------------------------------------------*/
+
+
+
+/* Common - Fonts
+------------------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 { }
+
+h1 { font-size: 4.8em; }
+h2 { font-size: 3.6em; }
+h3 { font-size: 2.4em; }
+h4 { font-size: 1.8em; }
+h5 { font-size: 1.6em; }
+h6 { font-size: 1.4em; }
+
+h4 {
+  color: #1D1D1D;
+  margin-bottom: 10px;
+}
+
+a {
+}
+
+a:link, a:visited {
+  color: #c00;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+}
+
+p { margin-bottom: 1.4em; }
+
+/* Common - Lists
+------------------------------------------------------------------*/
+
+ol, ul    { list-style: none; }
+
+ol.simple { list-style: decimal inside; }
+ul.simple { list-style: disc inside; }
+
+dt, dd    {  }
+
+dl.simple { overflow: hidden; }
+
+dl.simple dt {
+  float: left;
+  font-weight: bold;
+  margin-right: 5px;
+  clear: both;
+}
+
+dl.simple dd {
+  float: left;
+}
+
+ul.tabs {
+  height: 25px;
+  border-bottom: 1px solid #999;
+}
+
+ul.tabs li {
+  float: left;
+  margin-left: 5px;
+}
+
+ul.tabs li a {
+  display: block;
+  border: 1px solid #999;
+  padding: 0 10px;
+  line-height: 24px;
+  background: #ddd;
+}
+
+ul.tabs li a:link,
+ul.tabs li a:visited,
+ul.tabs li a:hover,
+ul.tabs li a:active {
+  color: #666;
+  text-decoration: none;
+}
+
+ul.tabs li a:hover,
+ul.tabs li a:active {
+  color: #111;
+  background: #fff;
+}
+
+ul.tabs li.on {
+}
+
+ul.tabs li.on a {
+  background: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+ul.tabs li.on a:link,
+ul.tabs li.on a:visited,
+ul.tabs li.on a:hover,
+ul.tabs li.on a:active {
+  color: #111;
+}
+
+/* Common - Forms
+------------------------------------------------------------------*/
+
+legend { display: none; }
+
+input, textarea, select {
+  font-size: 14px;
+  font-family: helvetica, arial, verdana, sans-serif;
+}
+
+label { font-size: 1em; }
+label em { margin-left: 5px; }
+
+input.text    { width: 296px; }
+input.check   {  }
+input.submit  {  }
+textarea      { width: 300px; height: 100px; }
+select        { width: 302px; }
+
+form.simple {
+  border-top: 1px solid #ddd;
+  background: #eee;
+  overflow: hidden;
+}
+
+form.simple label,
+form.simple input,
+form.simple textarea,
+form.simple select {
+  display: block;
+}
+
+form.simple input.submit {
+  float: left;
+}
+
+form.simple p {
+  overflow: hidden;
+  margin-bottom: 0;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+form.simple .error {
+  margin-bottom: 10px;
+  padding: 5px;
+  display: block;
+  border: 1px dotted #c33;
+  background: #fee;
+}
+
+form.simple .help {
+  display: block;
+  position: absolute;
+  line-height: 25px;
+  margin: 0 0 0 312px;
+  font-size: 11px;
+  color: #666;
+}
+
+form.complex {
+  border-top: 1px solid #ddd;
+  background: #eee;
+  overflow: hidden;
+}
+
+form.complex fieldset {
+  overflow: hidden;
+}
+
+form.complex p {
+  margin-bottom: 0;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+}
+
+form.complex label {
+  float: left;
+  width: 100px;
+  clear: both;
+  line-height: 1.8em;
+}
+
+form.complex input,
+form.complex textarea,
+form.complex select {
+  float: left;
+}
+
+form.complex .error {
+  margin-bottom: 10px;
+  padding: 5px;
+  display: block;
+  border: 1px dotted #c33;
+  background: #fee;
+}
+
+form.complex .help {
+  display: block;
+  position: absolute;
+  line-height: 25px;
+  margin: 0 0 0 412px;
+  font-size: 11px;
+  color: #666;
+}
+
+form.complex input.submit {
+  margin-left: 100px;
+  clear: both;
+}
+
+/* Common - Tables
+------------------------------------------------------------------*/
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+}
+
+table.simple {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+table.simple th,
+table.simple td {
+  line-height: 22px;
+  padding: 5px 10px;
+}
+
+table.simple td {
+  border-bottom: 1px dotted #ccc;
+}
+
+table.simple td.time {
+  text-align: right;
+}
+
+table.simple th {
+  padding: 2px 10px;
+  background: #ccc;
+}
+
+/* Layout - GoRuCo
+------------------------------------------------------------------*/
+
+/*#goruco {
+  margin: 0 auto;
+}*/
+
+/* Layout - Header
+------------------------------------------------------------------*/
+
+#logo {
+  position: absolute;
+  float: left;
+  padding-top: 20px;
+}
+
+#logo img {
+  width: 325px;
+  height: 77px;
+  margin: 20px 0 0 0px;
+}
+
+#header-wrap {
+  background: #1d1d1d;
+}
+
+#header {
+  width: 940px;
+  overflow: hidden;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+#header .nav {
+  float: right;
+  font-family: "HelveticaNeue-Light";
+}
+
+#header .nav li {
+  float: left;
+  margin-left: 5px;
+}
+
+#header .nav li a {
+  display: block;
+  padding: 0 10px;
+  padding-top: 100px;
+  line-height: 32px;
+  text-align: center;
+  border-top: 5px solid #282828;
+  -webkit-transition-property: background, border-top;
+  -webkit-transition-duration: 0.25s;
+}
+
+#header .nav a:link,
+#header .nav a:visited {
+  color: #ddd;
+  background: #222;
+  text-decoration: none;
+}
+
+#header .nav li.on a:link,
+#header .nav li.on a:visited,
+#header .nav li.on a:hover,
+#header .nav li.on a:active,
+#header .nav a:hover,
+#header .nav a:active {
+  border-color: #fff;
+  color: #c00;
+  text-decoration: none;
+  background: #F5F5F5;
+}
+
+/* Layout - Main
+------------------------------------------------------------------*/
+
+#main-wrap {
+  color: #111;
+  background: #f5f5f5 url(/images/city-line.gif) repeat-x 0 100%;
+}
+
+#main {
+  padding: 20px 10px 100px 10px;
+  background: url(/images/city.gif) no-repeat bottom right;
+  overflow: hidden;
+  width: 940px;
+  margin: 0 auto;
+}
+
+#secondary {
+  float: right;
+  width: 300px;
+  margin-left: 20px;
+  font-size: 13px;
+}
+
+#secondary div {
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #ddd;
+}
+
+#primary {
+  float: left;
+  width: 620px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  color: #111;
+  font-size: 30px;
+}
+
+#primary ul {
+  margin-bottom: 10px;
+}
+
+#secondary h3 {
+  color: #c00;
+  border-bottom: 1px solid #bbb;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #111;
+  font-size: 24px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  color: #111;
+  font-size: 16px;
+}
+
+dd {
+  margin-bottom: 10px;
+}
+
+/* Layout - Footer
+------------------------------------------------------------------*/
+
+#footer-wrap {
+  padding: 30px 0;
+  background: #ddd;
+  line-height: 26px;
+}
+
+#footer {
+  overflow: hidden;
+  width: 940px;
+  margin: 0 auto;
+}
+
+#footer p {
+  float: left;
+  margin-bottom: 0;
+  color: #666;
+  font-size: 12px;
+}
+
+#footer ul {
+  float: right;
+  font-size: 12px;
+}
+
+#footer ul li {
+  float: left;
+}
+
+#footer a:link,
+#footer a:visited,
+#footer a:hover,
+#footer a:active {
+  display: block;
+  line-height: 26px;
+  padding: 0 10px;
+  color: #666;
+  text-decoration: none;
+}
+
+#footer li.on a:link,
+#footer li.on a:visited,
+#footer a:hover,
+#footer a:active {
+  color: #fff;
+  background: #666;
+}
+
+
+/* Content
+------------------------------------------------------------------*/
+
+.date {
+  float: left;
+  width: 60px;
+  margin-right: 20px;
+  padding: 3px 0;
+  color: #fff;
+  background: #666;
+  text-align: center;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.date .month {
+  line-height: 12px;
+  font-size: 11px;
+}
+
+.date .day {
+  padding-top: 2px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.news {
+  margin-bottom: 1.4em;
+  border-bottom: 1px dotted #ccc;
+}
+
+.news h2 {
+  color: #900;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.news h3 {
+  margin-left: 80px;
+}
+
+.news ul, .news ol {
+  margin: 0 0 1.4em 100px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: disc;
+}
+
+.news p {
+  margin-left: 80px;
+}
+
+.news .author {
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+/** Favicons **/
+#elsewhere ul {
+  list-style-type: none;
+}
+
+#elsewhere li {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+#elsewhere li.flickr {
+  background: url(/images/favicons/flickr.png) no-repeat;
+}
+
+#elsewhere li.github {
+  background: url(/images/favicons/github.png) no-repeat;
+}
+
+#elsewhere li.twitter {
+  background: url(/images/favicons/twitter.png) no-repeat;
+}
+
+ul.bullets {
+  margin: 0 0 0 20px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: disc;
+}
+
+table.schedule td {
+  padding-right: 5px
+}
+
+.headshot {
+  float: right;
+  padding: 0 0 10px 10px
+}
+
+#sponsors ul {
+  margin-bottom: 10px;
+}
+
+#sponsors li {
+  text-align: center;
+}

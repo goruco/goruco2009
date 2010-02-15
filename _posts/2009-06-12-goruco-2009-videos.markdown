@@ -1,0 +1,9 @@
+---
+layout:   post
+title:    GoRuCo 2009 Videos
+author:   Jesse
+---
+
+Get 'em while they're hot! The videos of the GoRuCo 2009 talks are now online at [goruco2009.confreaks.com](http://goruco2009.confreaks.com/)! 
+
+A big "thank you" goes out again this year to our friends at Confreaks for getting these up online so quickly.

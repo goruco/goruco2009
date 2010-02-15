@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="news">
+  <div class="date">
+    <div class="month">{{ page.date | date: "%b" }}</div>
+    <div class="day">{{ page.date | date: "%d" }}</div>
+  </div>
+  <h2>{{ page.title }}</h2>
+  <div class="author">Posted by {{ page.author }}</div>
+
+  {{ content }}
+</div>

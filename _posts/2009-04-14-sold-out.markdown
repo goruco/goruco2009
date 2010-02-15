@@ -1,0 +1,8 @@
+---
+layout:   post
+title:    Sold out
+author:   Francis
+---
+
+In seven days, we have sold out of all our seats for Gotham Ruby Conference. We do keep a waiting list, because sometimes we have a handful of seats open up last-minute. If you're interested, you can sign up on our [EventWax page](http://goruco2009.eventwax.com/gotham-ruby-conference-2009/register).
+

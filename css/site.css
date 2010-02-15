@@ -497,6 +497,11 @@ table.simple th {
   width: 620px;
 }
 
+#archive-notice {
+  width: 100%;
+  padding: 20px 20px 50px 0px;
+}
+
 h1 {
   margin-bottom: 20px;
   border-bottom: 1px solid #ccc;

@@ -425,7 +425,7 @@ table.simple th {
 
 #header .nav {
   float: right;
-  font-family: "HelveticaNeue-Light";
+  font-family: "HelveticaNeue-Light", "Century Gothic", "Helvetica";
 }
 
 #header .nav li {
